@@ -85,6 +85,7 @@
 -
   date: 2023-09-19
   info: Non-negative matrix factorization
+  travel: Madrid for Simons-CIEMAT
   hw:
     - "[Nonnegative Matrix Factorization](https://epubs.siam.org/doi/book/10.1137/1.9781611976410) (Gillis), Chapter 1"
     - "[The Whys and Hows of NMF](https://arxiv.org/abs/1401.5226), Gillis"
@@ -103,6 +104,7 @@
 -
   date: 2023-09-21
   info: Tensor basics, HOSVD, Tucker, and ALS
+  travel: Madrid for Simons-CIEMAT
   hw:
     - "[Tensor Decompositions and
        Applications](https://epubs-siam-org.proxy.library.cornell.edu/doi/10.1137/07070111X),
