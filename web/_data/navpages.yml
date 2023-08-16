@@ -1,0 +1,10 @@
+- link: index
+  name: Home
+- link: syllabus
+  name: Syllabus
+- link: schedule
+  name: Schedule
+- link: reading
+  name: Reading
+- link: netid/zoom
+  name: Zoom

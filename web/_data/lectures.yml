@@ -1,0 +1,387 @@
+# ==================
+# Week 1
+#
+-
+  date: 2023-08-22
+  info: Introduction
+  hw:
+    - "[NO](https://link.springer.com/book/10.1007/978-0-387-40065-5), sec 2.1"
+    - Getting-to-know you survey on Canvas
+-
+  date: 2023-08-24
+  info: Optimization and linear algebra refresher
+  hw:
+    - "[ESL](https://web.stanford.edu/~hastie/ElemStatLearn/), sec 3.1-3.2"
+    - "[ALA](https://epubs.siam.org/doi/book/10.1137/1.9781611971446), sec 3.2-3.2"
+#
+# ==================
+# Week 2
+#
+-
+  date: 2023-08-29
+  info: Regularized linear least squares
+  travel: BIRS workshop
+  hw:
+    - "[ESL](https://web.stanford.edu/~hastie/ElemStatLearn/), sec 3.4"
+    - "[ALA](https://epubs.siam.org/doi/book/10.1137/1.9781611971446), sec 3.5"
+    - "[NO](https://link.springer.com/book/10.1007/978-0-387-40065-5), sec 3.3"
+    - "[Rank Revealing QR Factorizations](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Chan-1987-RRQR.pdf), T.F. Chan, LAA, 1987."
+-
+  date: 2023-08-31
+  info: Sparse least squares and iterations
+  travel: BIRS workshop
+  hw:
+    - "Ch 2 of [Templates for the Solution of Linear Systems](https://www.netlib.org/templates/templates.pdf), Barret et al."
+    - "[LSQR: An algorthm for spare linear equations and sparse least squares](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Paige-1982-LSQR.pdf), Paige and Saunders, ACM TOMS, 1982."
+    - "[LSMR: An iterative algorithm for sparse least-squares problems](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Fong-2011-LSMR.pdf), Fong and Saunders, SISC, 2011."
+#
+# ==================
+# Week 3
+#
+-
+  date: 2023-09-05
+  info: Stochastic gradients, scaling, and Newton
+  hw:
+    - "[Optimization Methods for Large-Scale Machine Learning](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Bottou-2018-opt.pdf), Bottou, Curtis, and Nocedal, SIREV"
+-
+  date: 2023-09-07
+  info: Randomized numerical linear algebra
+  hw:
+    - "[Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Halko-2011-randomness.pdf), Halko, Martinsson, and Tropp, SIREV, 2011."
+    - "[LSRN: A Parallel Iterative Solver for Strongly Over- or Under-Determined Systems](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Meng-2014-LSRN.pdf), Meng, Saunders, Mahoney, SISC 2014"
+    - "Sec 5, [Lectures on Randomized NLA](https://arxiv.org/pdf/1712.08880.pdf), Drineas and Mahoney"
+#
+# ==================
+# Week 4
+#
+-
+  date: 2023-09-12
+  info: Latent factor models
+  hw:
+    - "[The Advanced Matrix Factorization
+      Jungle](https://sites.google.com/site/igorcarron2/matrixfactorizations),
+      I. Carron"
+    - "[A two-stage linear discriminant analysis via QR
+      decomposition](https://ieeexplore-ieee-org.proxy.library.cornell.edu/abstract/document/1432722),
+      Ye and Li"
+    - "[ESL](https://web.stanford.edu/~hastie/ElemStatLearn/), 3.5.1 and 14.5"
+-
+  date: 2023-09-14
+  info: SVD and other low-rank decompositions
+  hw:
+    - "[On the relationships between SVD, KLT, and PCA](https://www.sciencedirect.com/science/article/pii/0031320381900820), Gerbrands,
+       Pattern Recognition, 1981"
+    - "[Trace optimization and eigenproblems in dimension reduction methods](https://www-users.cs.umn.edu/~saad/PDF/umsi-2009-31.pdf), Kikiopoulou, Chen, and Saad, NLAA 2010"
+    - "[On the compression of low rank
+      matrices](https://epubs.siam.org/doi/abs/10.1137/030602678),
+      Cheng, Gimbutas, Martinsson, and Rokhlin, SISC 2005"
+    - "[CUR matrix decompositions for improved data
+       analysis](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Mahoney-Drineas-2009-CUR.pdf),
+       Mahoney and Drineas, PNAS 2009"
+#
+# ==================
+# Week 5
+#
+-
+  date: 2023-09-19
+  info: Non-negative matrix factorization
+  hw:
+    - "[Nonnegative Matrix Factorization](https://epubs.siam.org/doi/book/10.1137/1.9781611976410) (Gillis), Chapter 1"
+    - "[The Whys and Hows of NMF](https://arxiv.org/abs/1401.5226), Gillis"
+    - "[Learning the parts of objects by non-negative matrix
+       factorization](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Lee-Seung-1999-NMF.pdf),
+       Lee and Seung, Nature, 1999"
+    - "[Computing a nonnegative matrix factorization --
+       provably](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Arora-2016-NMF.pdf),
+       Arora, Ge, Kannan, and Moitra, SICOMP, 2016"
+    - "[When Does NMF Give a Correct Decomposition into
+       Parts?](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Donoho-Stodden-2003-separable.pdf),
+       Donoho and Stodden, NeurIPS, 2003"
+    - "[Algorithms for NMF and NTFs: a unified view based on block
+       coordinate descent framework](https://www.cc.gatech.edu/~hpark/papers/jgo.pdf),
+       Kim, He, and Park, J. Glob. Optim, 20113"
+-
+  date: 2023-09-21
+  info: Tensor basics, HOSVD, Tucker, and ALS
+  hw:
+    - "[Tensor Decompositions and
+       Applications](https://epubs-siam-org.proxy.library.cornell.edu/doi/10.1137/07070111X),
+       Kolda and Bader, SIREV, 2009"
+    - "[Tensor Computations and Applications in Data
+       Mining](https://client.blueskybroadcast.com/siam08/pdf/s18.pdf),
+       Elden, slides from SIAM AM 2008"
+    - "[From Matrix to
+       Tensor](https://www.cs.cornell.edu/cv/OtherPdf/Mat2Ten.pdf), Van
+       Loan, slides from Cornell CS colloquium"
+    - "[Tensors for Data Mining and Data
+       Fusion](https://www.cs.ucr.edu/~epapalex/papers/tist16-tensors.pdf),
+       Papalexakis, Faloutsos, and Sidriropoulos, ACM TIS, 2016" 
+#
+# ==================
+# Week 6
+#
+-
+  date: 2023-09-26
+  info: CP decomposition and algorithms, CUR and tensor trains
+  hw:
+    - "[Tensor Decompositions and
+       Applications](https://epubs-siam-org.proxy.library.cornell.edu/doi/10.1137/07070111X),
+       Kolda and Bader, SIREV, 2009"
+    - "[Tensor Decompositions: A Mathematical Tool for Data
+       Analysis](https://www.osti.gov/servlets/purl/1513637), Kolda,
+       slides from JMM 2018"
+    - "[Epsilon-ALS for Orthogonal Low-Rank Tensor
+        Approximation](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1303113),
+        Yang, SIMAX 2020"
+    - "[Low Multilinear Rank Approximations of
+        Tensors](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1237016),
+        Che, Wei, and Yan, SIMAX 2020"
+    - "[Low-Rank Approximation in the Frobenius Norm by Column and Row
+        Subset Selection](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1281848),
+       Cortinovis and Kressner, SIMAX 2020"
+    - "[Stochastic Gradients for Large-Scale Tensor
+        Decomposition](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1266265),
+        Kolda and Hong, SIMODS 2020"
+-
+  date: 2023-09-28
+  info: Nonlinear dimensionality reduction
+  hw:
+    - "[A global geometric framework for nonlinear dimensionality reduction](https://web.mit.edu/cocosci/Papers/sci_reprint.pdf),
+       Tenenbaum, de Silva, and Langford, Science 2000"
+    - "[Nonlinear dimensionality reduction by locally linear embedding](https://science.sciencemag.org/content/sci/290/5500/2323.full.pdf),
+       Roweis and Saul, Science 2000"
+    - "[Visualizing Data using t-SNE](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf), van der Maaten and Hinton, JMLR
+       2008"
+    - "[Dimensionality Reduction: A Comparitive Review](https://lvdmaaten.github.io/publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf), van der Maaten,
+      Postma, and van den Herik, Tech report 2009"
+    - "[Dimension Reduction: A Guided Tour](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/FnT_dimensionReduction.pdf), Burges, FTML 2009"
+    - "[Global versus local methods in nonlinear dimensionality reduction](https://web.mit.edu/cocosci/Papers/nips02-localglobal-in-press.pdf), de Silva and Tenenbaum, NeurIPS 2003"
+    - "[Large-scale SVD and manifold learning](https://www.jmlr.org/papers/v14/talwalkar13a.html), Talwalkar, Kumar, Mohri,
+       and Rowley, JMLR 2013"
+    - "[Accelerating t-SNE using tree-based algorithms](https://jmlr.org/papers/v15/vandermaaten14a.html), van der Maaten, JMLR 2014"
+#
+# ==================
+# Week 7
+#
+-
+  date: 2023-10-03
+  info: Function approximation fundamentals
+  hw:
+    - "[Nonlinear Approximation](https://www-cambridge-org.proxy.library.cornell.edu/core/journals/acta-numerica/article/nonlinear-approximation/C8E028C39B8A849690D0EC418516A934), DeVore, Acta Numerica 1998 - long, but please do read sections 1 and 9 at least"
+    - "[Approximation Theory and Approximation Practice](https://epubs-siam-org.proxy.library.cornell.edu/doi/book/10.1137/1.9781611975949), Trefethen, SIAM 2019 - a beautiful text, focused on polynomial and rational approximation in 1D; useful to skim, don't consider it assigned reading"
+    - "[A Course in Approximation Theory](http://www.ams.org.proxy.library.cornell.edu/books/gsm/101/gsm101.pdf), Cheney and Light, AMS 2009 - again, not considered assigned reading (unless you want to do DNN approximation, in which case please read ch 23-25)"
+-
+  date: 2023-10-05
+  info: Low-dim structure in function approximation
+  hw:
+    - "[Active Subspaces: Emerging Ideas for Dimension Reduction in Parameter Studies](https://epubs.siam.org/doi/book/10.1137/1.9781611973860), Constantine, SIAM 2015"
+    - "[Active Subspace Methods in Theory and Practice: Applications to Kriging Surfaces](https://epubs.siam.org/doi/10.1137/130916138), Constantine, Dow, and Wang, SISC 2014"
+    - "[Active Manifolds: a non-linear analogue to Active Subspaces](https://arxiv.org/pdf/1904.13386.pdf), Bridges, Gruber, Felder, Verma, Hoff, ICML 2019"
+    - "[Constrained global optimization of functions with low effective dimensionality using multiple random embeddings](https://arxiv-org.proxy.library.cornell.edu/abs/2009.10446), Cartis, Massart, Otemissov, arXiv 2020"
+#
+# ==================
+# Week 8
+#
+-
+  date: 2023-10-10
+  break: Fall break
+-
+  date: 2023-10-12
+  info: Low-dim structure in function approximation
+  hw:
+    - "[Approximation of high-dimensional parametric PDEs](https://arxiv.org/pdf/1502.06797), Cohen, DeVore, Acta Numerica 2015"
+    - "[Model reduction via proper orthogonal decomposition](https://link-springer-com.proxy.library.cornell.edu/chapter/10.1007%2F978-3-540-78841-6_5), Pinnau, in Model Order Reduction: Theory, Research Aspects and Applications, Springer 2008"
+    - "[Nonlinear model reduction via discrete empirical interpolation](https://epubs.siam.org/doi/abs/10.1137/090766498), Chaturantabut, Sorensen, SISC 2010"
+#
+# ==================
+# Week 9
+#
+-
+  date: 2023-10-17
+  info: Many interpretations of kernels
+  hw:
+    - "[ESL](https://web.stanford.edu/~hastie/ElemStatLearn/), sec 14.5.4"
+    - "[Kernel techniques: From machine learning to meshless
+       methods](https://doi.org/10.1017/S0962492906270016), Schaback
+       and Wendland, Acta Numerica 2006"
+    - "[Gaussian Processes for Machine
+        Learning](http://www.gaussianprocess.org/gpml/), Rasumussen
+        and Williams, 2006 - read Ch 1"
+    - "[Kernel Methods in ML](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Hofmann-2008-survey.pdf),
+       Hoffman, Scholkopf, Smola, Annals of Statistics, 2008"
+    - "[Spline Models for Observational
+       Data](https://epubs.siam.org/doi/book/10.1137/1.9781611970128),
+       Wahba, SIAM 1990 - read the foreword in particular"
+-
+  date: 2023-10-19
+  info: Approaches to kernel selection
+  hw:
+    - "[Spline Models for Observational
+        Data](https://epubs.siam.org/doi/book/10.1137/1.9781611970128),
+        Wahba, SIAM 1990 - Ch 4"
+    - "[Gaussian Processes for Machine
+        Learning](http://www.gaussianprocess.org/gpml/), Rasumussen
+        and Williams, 2006 - read Ch 5"
+    - "[Automatic Model Construction with Gaussian
+        Processes](https://www.cs.toronto.edu/~duvenaud/thesis.pdf),
+        Duvenaud, Cambridge PhD dissertation, 2014 - read Ch 2"
+#
+# ==================
+# Week 10
+#
+-
+  date: 2023-10-24
+  info: Computing with kernels
+  hw:
+    - "[Spline Models for Observational
+        Data](https://epubs.siam.org/doi/book/10.1137/1.9781611970128),
+        Wahba, SIAM 1990 - Ch 11"
+    - "[Gaussian Processes for Machine
+        Learning](http://www.gaussianprocess.org/gpml/), Rasumussen
+        and Williams, 2006 - read Ch 8"
+-
+  date: 2023-10-26
+  info: Scalable kernel methods
+  hw:
+    - "[Kernel Interpolation for Scalable Structured
+        GPs](http://proceedings.mlr.press/v37/wilson15.pdf), Wilson and Nickisch, ICML 2015"
+    - "[Scalable Log Determinants for GP Kernel
+        Learning](http://arxiv.org/abs/1711.03481.pdf), Eriksson et al,
+        NeurIPS 2017"
+    - "[Scaling GP Regression with
+        Derivatives](http://arxiv.org/abs/1810.12283.pdf), Dong et al,
+        NeurIPS 2018"
+    - "[Exact GPs on a Million Data
+        Points](https://papers.nips.cc/paper/2019/hash/01ce84968c6969bdd5d51c5eeaa3946a-Abstract.html),
+        Wang et al, NeurIPS 2019"
+    - "[Fast estimation of tr(f(A)) via stochastic Lanczos
+        quadrature](https://doi.org/10.1137/16M1104974), Ubaru, Chen,
+        and Saad, SIMAX 2017"
+#
+# ==================
+# Week 11
+#
+-
+  date: 2023-10-31
+  info: Matrices associated with graphs
+  hw:
+    - "[Graph Algorithms in the Language of Linear
+       Algebra](https://epubs.siam.org/doi/book/10.1137/1.9780898719918),
+       Kepner and Gilbert, eds, SIAM 2011 - Ch 1-2"
+    - "[Graph spectral techniques in computer
+        sciences](https://www-jstor-org.proxy.library.cornell.edu/stable/43666153),
+        Arsic et al, Appl Anal Discrete Math, 2012"
+    - "[Mining Large
+        Graphs](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Gleich-2016-mining.pdf),
+        Gleich and Mahoney, Handbook of modern statistical methods, 2016"
+-
+  date: 2023-11-02
+  info: Function approximation on graphs
+  hw:
+    - "[Semi-Supervised Learning Using Gaussian Fields and Harmonic
+        Functions](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/ZGL-2003-SSL.pdf),
+        Zhu, Gharhraman, and Lafferty, ICML 2003"
+    - "[Learning with Local and Global
+        Consistency](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Zhou-2004-global-local.pdf),
+        Zhou, NeurIPS 2004"
+    - "[Empirical stationary correlations for semi-supervised learning
+        on
+        graphs](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Xu-2010-kriging.pdf),
+        Xu, Dyer, and Owen, Ann Appl Stat, 2010"
+    - "[Using Local Spectral Methods to Robustify Graph-Based Learning
+        Algorithms](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Gleich-2015-robustifying.pdf),
+       Gleich and Mahoney, KDD 2015"
+#
+# ==================
+# Week 12
+#
+-
+  date: 2023-11-07
+  info: Graph clustering and partitioning
+  hw:
+    - "[A tutorial on spectral
+        clustering](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/vonLuxburg-2007-spectral.pdf),
+        von Luxburg, Statistics and Computing 2007"
+    - "[Communities in
+        networks](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Porter-2009-AMS.pdf),
+        Porter, Onnela, and Mucha, Notices of the AMS, 2009"
+    - "[Community detection in networks: A user
+        guide](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Fortunato-2016-guide.pdf),
+        Fortunato and Hric, Physics Reports, 2016"
+    - "[Trace optimization and eigenproblems in dimension reduction
+       methods](https://www.cs.cornell.edu/courses/cs6241/2020sp/readings/Kokiopoulou-2011-trace.pdf),
+       Kokiopoulou, Chen, and Saad, NLAA, 2011"
+-
+  date: 2023-11-09
+  info: Centrality measures
+  hw:
+    - "[On the Limiting Behavior of Parameter-Dependent Network
+        Centrality
+        Measures](https://epubs.siam.org/doi/10.1137/130950550), Benzi
+        and Klymko, SIMAX 2015"
+    - "[PageRank Beyond the
+        Web](https://epubs.siam.org/doi/abs/10.1137/140976649),
+        Gleich, SIREV 2015"
+#
+# ==================
+# Week 13
+#
+-
+  date: 2023-11-14
+  info: Learning linear system dynamics
+  hw:
+    - "[Dynamic mode decomposition of numerical and experimental
+       data](https://hal-polytechnique.archives-ouvertes.fr/file/index/docid/1020654/filename/DMS0022112010001217a.pdf),
+       Schmid, JFM 2010"
+    - "[System
+       Identification](https://hal-polytechnique.archives-ouvertes.fr/file/index/docid/1020654/filename/DMS0022112010001217a.pdf),
+       Ljung, 2007"
+-
+  date: 2023-11-16
+  info: Learned dynamics and extrapolation
+  hw:
+    - "[Data-Driven Science and
+        Engineering](https://www-cambridge-org.proxy.library.cornell.edu/core/books/datadriven-science-and-engineering/77D52B171B60A496EAFE4DB662ADC36E),
+        Brunton and Kutz, 2019 -- reach Ch 7"
+#
+# ==================
+# Week 14
+#
+-
+  date: 2023-11-21
+  info: Koopman theory and lifting
+  hw:
+    - "[Dynamic mode decomposition with
+        control](https://arxiv.org/abs/1409.6358), Proctor, Brunton, and
+        Kutz, SIAM Applied Dyn Sys 2016"
+    - "[An eigensystem realization algorithm for modal parameter
+        identification and model
+        reduction](https://arc-aiaa-org.proxy.library.cornell.edu/doi/10.2514/3.20031),
+        Juang and Pappa, J. Guidance 1985"
+    - "[Hamiltonian Systems and Transformations in Hilbert
+       Space](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1076052/),
+       Koopman, PNAS 1931"
+-
+  date: 2023-11-23
+  break: Thanksgiving break
+#
+# ==================
+# Week 15
+#
+-
+  date: 2023-11-28
+  info: Learning nonlinear dynamics
+  hw:
+    - "[Discovering governing equations from data by sparse
+       identification of nonlinear dynamical
+       systems](https://www.pnas.org/content/pnas/113/15/3932.full.pdf),
+       Brunton, Proctor, Kutz, PNAS 2016"
+    - "[A Data-Driven Approximation of the Koopman Operator: Extending
+       Dynamic Mode Decomposition](https://arxiv.org/abs/1408.4408),
+       Williams, Kevrekidis, Rowley, J Nonlinear Science 2015"
+    - "[A Kernel-Based Method for Data-Driven Koopman Spectral
+        Analysis](https://arxiv.org/pdf/1411.2260.pdf), Williams, Rowley,
+        Kevrekidis, J Comp Dynamics 2015"
+-
+  date: 2023-11-30
+  info: Special topics
