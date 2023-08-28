@@ -1,12 +1,17 @@
 TEXINPUTS:=.
 
 LEC= \
+	pdf/2023-08-22.pdf \
+	pdf/2023-08-24.pdf \
+	pdf/2023-08-29.pdf \
+	pdf/2023-08-31.pdf \
 	pdf/background.pdf 
 
 .PHONY: all copy
 all: $(LEC)
 
 pdf/%.pdf: notes/%.tex common.tex
+	mkdir -p pdf
 	xelatex -output-dir pdf $<
 	xelatex -output-dir pdf $<
 

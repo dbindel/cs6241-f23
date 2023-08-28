@@ -4,12 +4,14 @@
 -
   date: 2023-08-22
   info: Introduction
+  notes: 2023-08-22.pdf
   hw:
     - "[NO](https://link.springer.com/book/10.1007/978-0-387-40065-5), sec 2.1"
     - Getting-to-know you survey on Canvas
 -
   date: 2023-08-24
   info: Optimization and linear algebra refresher
+  notes: 2023-08-24.pdf
   hw:
     - "[ESL](https://web.stanford.edu/~hastie/ElemStatLearn/), sec 3.1-3.2"
     - "[ALA](https://epubs.siam.org/doi/book/10.1137/1.9781611971446), sec 3.2-3.2"
@@ -19,6 +21,7 @@
 #
 -
   date: 2023-08-29
+  notes: 2023-08-29.pdf
   info: Regularized linear least squares
   travel: BIRS workshop
   hw:
@@ -28,6 +31,7 @@
     - "[Rank Revealing QR Factorizations](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Chan-1987-RRQR.pdf), T.F. Chan, LAA, 1987."
 -
   date: 2023-08-31
+  notes: 2023-08-31.pdf
   info: Sparse least squares and iterations
   travel: BIRS workshop
   hw:
