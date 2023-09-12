@@ -3,7 +3,7 @@ title: Reaction paper
 layout: main
 ---
 
-**Due: March 15, 2021**
+**Due: Oct 3, 2023**
 
 The goal of this assignment is to get you thinking about research
 related to the ideas of the course and to stimulate ideas for final

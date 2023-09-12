@@ -3,7 +3,7 @@ title: Project proposal
 layout: main
 ---
 
-**Due: March 22, 2021**
+**Due: October 17, 2021**
 
 The goal of this assignment is to get you rhinking about your final
 project.  I would like a short (1-2 page) proposal of what you would

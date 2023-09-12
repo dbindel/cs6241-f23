@@ -3,7 +3,7 @@ title: Paper link dump
 layout: main
 ---
 
-This is an (incomplete) list of papers in my bookmark file as of Feb 23.  Some are
+This is an (incomplete) list of papers that you ight consider.  Some are
 not particularly numerical, but many are.  You are not expected to be
 able to immediately understand all of these, and you are not restricted to
 this list!
